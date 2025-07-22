@@ -1,0 +1,46 @@
+
+==============================
+GUÍA DE USO Y PRESENTACIÓN
+==============================
+
+Nombre: Ferretería Teresa (SPA)
+Framework: React
+API externa: Fake Store API (https://fakestoreapi.com)
+
+-----------------------------------------------------------------------------------------------------------------
+                                             ¡¡IMPORTANTE!!
+-- Antes de ejecutar la aplicación, debemos tener instalado visual studio code y node.js (versión 20.19.4 LTS) --
+-----------------------------------------------------------------------------------------------------------------
+
+------------------------------
+1. ¿Cómo ejecutarlo?
+------------------------------
+1. Abrir terminal en la carpeta del proyecto.
+2. Ejecutar: npm install
+3. npm install react-router-dom (si lo pide)
+4. Luego: npm start
+
+La app abrirá automáticamente en http://localhost:3000
+
+------------------------------
+2. ¿Qué funcionalidades muestra?
+------------------------------
+
+✅ SPA React con múltiples secciones.
+✅ Formulario completo con:
+   - Texto, número, email, checkbox, fecha, select (API externa).
+✅ API externa funcional sin claves (Fake Store API).
+✅ Guardado de pedidos en LocalStorage.
+✅ CRUD completo:
+   - Ver lista de pedidos en "Pedidos Realizados".
+   - Editar campos directamente.
+   - Eliminar pedidos.
+   - Cambios persistentes.
+
+------------------------------
+3. ¿Qué destacar en la presentación?
+------------------------------
+- Navegación fluida sin recarga (SPA).
+- Conexión real a API externa.
+- Gestión dinámica del DOM con React.
+- CRUD completo implementado.
